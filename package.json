@@ -1,0 +1,31 @@
+{
+  "name": "wikistack",
+  "version": "1.0.0",
+  "description": "wiki page",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jphwang212/wikistack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jphwang212/wikistack/issues"
+  },
+  "homepage": "https://github.com/jphwang212/wikistack#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "html-template-tag": "^3.2.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.8.0",
+    "postgres": "^3.2.4",
+    "sequelize": "^6.23.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
